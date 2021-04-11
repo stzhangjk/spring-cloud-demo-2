@@ -7,3 +7,6 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.174.131:8848
+feign:
+  hystrix:
+    enabled: true
