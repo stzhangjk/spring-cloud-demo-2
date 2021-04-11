@@ -1,0 +1,9 @@
+server:
+  port: 10080
+spring:
+  application:
+    name: nacos-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.174.131:8848
